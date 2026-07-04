@@ -147,14 +147,22 @@ export default function Footer() {
                   2nd floor, K C Arcade, Thuthiyoor Rd, CSEZ P O, Kerala - 682037
                 </span>
               </div>
-              <div className="flex items-center space-x-2">
+              <a
+                href="mailto:info@izavitainfratech.com"
+                className="flex items-center space-x-2 hover:text-white transition-colors"
+              >
                 <Mail className="w-3.5 h-3.5 text-primary" />
                 <span className="font-light">info@izavitainfratech.com</span>
-              </div>
-              <div className="flex items-center space-x-2">
+              </a>
+              <a
+                href="https://wa.me/918089915277"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center space-x-2 hover:text-white transition-colors"
+              >
                 <Phone className="w-3.5 h-3.5 text-primary" />
                 <span className="font-light">+91 80899 15277</span>
-              </div>
+              </a>
             </div>
           </div>
 
