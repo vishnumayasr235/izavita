@@ -87,7 +87,7 @@ export default function WhyChooseUs() {
     {
       icon: BarChart3,
       label: "ISO Certification",
-      statValue: "19650",
+      statValue: 19650,
       statSuffix: "",
       subText: "Adhering to international BIM standards for project delivery.",
     },
